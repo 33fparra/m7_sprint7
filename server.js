@@ -11,7 +11,7 @@ const PORT = 3000; // Puerto en el que el servidor escuchará las solicitudes
 
 app.use(express.json()); // Middleware para manejar el cuerpo de las peticiones en formato JSON
 
-//-------------------Aca terminan end poitns
+
 
 const pool = new Pool({
   host: "localhost",
@@ -20,6 +20,8 @@ const pool = new Pool({
   database: "bancosolar",
   port: 5432,
 });
+
+//-------------------Aca empiezan poitns
 
 // Pantalla inicial
 app.get("/", (req, res) => {
@@ -146,7 +148,7 @@ app.get("/transferencias", async (req, res) => {
 });
 
 
-//-------------------ACA TERMINAN LAS APIS
+//-------------------Aca terminan end poitns
 
 // Iniciar el servidor
 app.listen(PORT, () => {
