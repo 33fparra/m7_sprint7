@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^3.3.2",
+    "pg": "^8.11.2",
+    "sequelize": "^6.32.1",
+    "uuid": "^9.0.0"
+  }
+}
