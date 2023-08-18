@@ -3,9 +3,7 @@
 
 <br>
 
-## No olvides Revisar
-
-<h2><b>Descripción del Proyecto</b> <img src ="https://media.giphy.com/media/GjhqaB166nKR4BoEnh/giphy.gif" width = 50px></h2>
+<h2><b>Descripción del Proyecto</b> <img src ="https://media.giphy.com/media/RIGGWvHpHhtQqJN8Hx/giphy.gif" width = 50px></h2>
 
 📝 Transferencias bancarias(Banco Solar)
 
@@ -88,8 +86,13 @@ la consulta a la base de datos.
     "author": "",
     "license": "ISC",
     "dependencies": {
+    "esm": "^3.2.25",
     "express": "^4.18.2",
-    "pg": "^8.11.2"
+    "fs": "^0.0.1-security",
+    "node-fetch": "^3.3.2",
+    "pg": "^8.11.2",
+    "sequelize": "^6.32.1",
+    "uuid": "^9.0.0"
     }
     ````
 
@@ -107,10 +110,15 @@ la consulta a la base de datos.
 callbacks para condicionar las funciones del servidor. 
 5. Devolver correctamente los códigos de estado según las diferentessituaciones. 
 
+<br>
 
-<!-- ![Foto de grupo](public/images/grupoVerde.jpg) -->
+<h2><b>Base de Datos</b> <img src ="https://media.giphy.com/media/EK5nB6wQKKN86j7GWx/giphy.gif" width = 50px></h2>
 
-## Participantes del Grupo :busts_in_silhouette:
+![Foto de BD](public/images/sprint7.png)
+
+<br>
+
+<h2><b>Equipo</b> <img src ="https://media.giphy.com/media/WZAQgT7E0NBfYnvL1C/giphy.gif" width = 50px></h2>
 
 1. Loreto Godoy : https://github.com/loreGodoyUp
 
@@ -122,7 +130,9 @@ callbacks para condicionar las funciones del servidor.
 
 5. Boris Guiñez : https://github.com/boanguibe
 
-6. Felipe Andres Parra : https://github.com/33fparra
+6. Alfonso Mujica : https://github.com/ALFONSOMUJICAS
+
+7. Felipe Andres Parra : https://github.com/33fparra
 
 
 ### Este proyecto está bajo la licencia ADALID.

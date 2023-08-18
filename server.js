@@ -10,7 +10,7 @@ const app = express(); // Crear una instancia de Express
 const PORT = 3000; // Puerto en el que el servidor escuchará las solicitudes
 
 app.use(express.json()); // Middleware para manejar el cuerpo de las peticiones en formato JSON
-
+app.use('/public', express.static('public'))
 
 
 const pool = new Pool({
