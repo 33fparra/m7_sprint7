@@ -16,7 +16,7 @@ app.use('/public', express.static('public'))
 const pool = new Pool({
   host: "localhost",
   user: "postgres",
-  password: "pipe1234",
+  password: "12345",
   database: "bancosolar",
   port: 5432,
 });
